@@ -10,7 +10,7 @@ Complete installation and usage requires docker and nginx to be installed on loc
 
 `git clone https://github.com/anthonyss09/nodejs-express-react-boiler-plate.git`
 
-## cd into project and istall dependencies & build docker images
+## cd into project install dependencies & build docker images
 
 From root directory
 
