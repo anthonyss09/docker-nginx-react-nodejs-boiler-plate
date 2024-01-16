@@ -1,0 +1,11 @@
+services:
+  ws1:
+    image: node-server
+    ports:
+      - "8080:8080"
+  frontend:
+    image: nginx-react-app
+    ports:
+      - "3000:80"
+    depends_on:
+      - ws1

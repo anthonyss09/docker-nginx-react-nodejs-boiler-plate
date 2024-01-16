@@ -5,12 +5,11 @@ import { useState, useEffect } from "react";
 
 function App() {
   const [message, setMessage] = useState("");
-
   useEffect(() => {
     //fetch response message from nodejs backend and store in state
     const fetchData = async () => {
       try {
-        const response = await axios.get("/node-server");
+        const response = await axios.get("http://localhost:80/node-server/");
         setMessage(response.data);
       } catch (error) {
         console.log(error);
