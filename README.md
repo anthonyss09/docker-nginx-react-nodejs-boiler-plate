@@ -1,4 +1,4 @@
-# nodejs-express-react-boiler-plate
+# docker-nginx-react-nodejs-boiler-plate
 
 nodejs-express-react-boiler-plate is a basic setup for a react front end server behind nginx reaching a node.js backend server deliverable in docker containers.
 
@@ -72,7 +72,7 @@ From root directory
 ### Docker compose
 
 From root directory
-
+``
 `docker compose up`
 
 Take containers down
