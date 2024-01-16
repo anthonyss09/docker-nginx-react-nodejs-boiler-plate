@@ -72,8 +72,10 @@ From root directory
 ### Docker compose
 
 From root directory
-``
+
 `docker compose up`
+
+Project can now be viewed in browser at http://localhost:3000
 
 Take containers down
 
@@ -82,5 +84,3 @@ Take containers down
 Stop nginx in resptective terminal
 
 `nginx -s stop`
-
-Project can now be viewed in browser at http://localhost:3000
